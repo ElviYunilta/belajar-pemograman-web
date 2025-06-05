@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Summary HTML Dasar</title>
+</head>
+<body>
+
+<!-- Halaman Utama Workshop -->
+<h1>Workshop Pengembangan Diri Gratis</h1>
+<p> Ini adalah <strong>contoh halaman</strong> workshop online menggunakan <em>HTML dasar</em>. </p>
+
+<!-- Tautan ke situs penyelenggara -->
+<p>Daftar sekarang di website resmi 
+<a href="https://www.penyelenggara.id"  target="_blank">Penyelenggara.id</a> 
+dan buka di tab baru.</p>
+
+<!-- Gambar promosi workshop -->
+<img src="workshop.jpg" alt="Promosi Workshop Pengembangan Diri" />
+
+<!-- Daftar materi workshop -->
+<h2>Materi Workshop</h2>
+<ul>
+   <li>Meningkatkan Produktivitas</li>
+   <li>Manajemen Waktu</li>
+   <li>Komunikasi Efektif</li>
+   <li>Public Speaking</li>
+   <li>Leadership Dasar</li>
+</ul>
+
+<!-- Jadwal pelaksanaan workshop -->
+<table border="1">
+  <tr>
+    <th>Hari</th>
+    <th>Tanggal</th>
+    <th>Jam</th>
+  </tr>
+  <tr>
+    <td>Sabtu</td>
+    <td>5 April 2025</td>
+    <td>09:00 - 12:00</td>
+  </tr>
+  <tr>
+    <td>Minggu</td>
+    <td>6 April 2025</td>
+    <td>09:00 - 12:00</td>
+  </tr>
+</table>
+<br/>
+
+<!-- Formulir pendaftaran -->
+<form action="proses-daftar.html" method="get">
+
+   Nama Lengkap: <input type="text" name="nama_lengkap" value="Masukkan nama Anda" />
+   <br /><br />
+
+   Email: <input type="email" name="email" placeholder="example@email.com" />
+   <br /><br />
+
+   Usia:
+   <select name="usia">
+      <option value="15-18">15 - 18 tahun</option>
+      <option value="19-24" selected>19 - 24 tahun</option>
+      <option value="25-35">25 - 35 tahun</option>
+   </select>
+   <br /><br />
+
+   Jenis Kelamin:
+   <input type="radio" name="kelamin" value="laki" checked /> Laki-laki
+   <input type="radio" name="kelamin" value="perempuan" /> Perempuan
+   <br /><br />
+
+   Apakah Anda pernah mengikuti workshop sebelumnya?
+   <input type="checkbox" name="pengalaman" /> Ya
+   <br /><br />
+
+   Komentar atau harapan:
+   <textarea name="harapan" rows="5" cols="30">Apa harapan kamu dari workshop ini?</textarea>
+   <br /><br />
+
+   <input type="submit" value="Daftar Sekarang!" />
+   <input type="reset" value="Hapus Semua" />
+
+</form>
+
+</body>
+</html>

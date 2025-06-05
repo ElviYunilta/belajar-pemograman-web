@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Belajar Membuat Form</title>
+</head>
+<body>
+
+<form action="proses-pendaftaran.html" method="get">
+
+Nama Lengkap: <input type="text" name="nama_lengkap" value="Masukkan Nama Lengkap" />
+<br />
+
+Email: <input type="email" name="email_pengguna" placeholder="contoh@email.com" />
+<br />
+
+Jenis Akun:
+<input type="radio" name="jenis_akun" value="gratis" checked /> Gratis
+<input type="radio" name="jenis_akun" value="premium" /> Premium
+<br />
+
+Minat Anda:
+<input type="checkbox" name="minat_desain" /> Desain Grafis
+<input type="checkbox" name="minat_pemrograman" checked /> Pemrograman
+<input type="checkbox" name="minat_video" /> Video Editing
+<br />
+
+Pendidikan Terakhir:
+<select name="pendidikan">
+    <option value="SMA">SMA / SMK</option>
+    <option value="Diploma" selected>Diploma</option>
+    <option value="Sarjana">Sarjana</option>
+</select>
+<br />
+
+Pesan Tambahan:
+<textarea name="pesan" rows="5" cols="30">Tuliskan pesan atau pertanyaan tambahan
+</textarea>
+<br />
+
+<input type="submit" value="Kirim Data!" />
+<input type="reset" value="Hapus Isi" />
+
+</form>
+
+</body>
+</html>
